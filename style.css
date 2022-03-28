@@ -1,0 +1,2148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+      #sideNav{
+        width:250px;
+        height:100vh;
+        position:fixed;
+        right: -250px;
+        top:0;
+        padding-top: 40px;
+        background-color: #00000085;
+        z-index:2;
+        transition: 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        
+      }
+      nav ul li{
+        list-style:none;
+        text-transform: uppercase;
+        font-size: 18px;
+       
+        
+      }
+      nav ul li a{
+        text-decoration:none;
+        color:white;
+        letter-spacing: 1px;
+      }
+      nav ul li a:hover{
+        
+        color:white;
+      }
+      #manuBtn{
+        width: 50px;
+        height:50px;
+        text-align:center;
+        position:fixed;
+        right:30px;
+        top:30px;
+        border-radius: 3px;
+        background-color:#000000;
+        border-radius: 10px;
+        Z-index:3;
+        cursor:pointer;
+       }
+     #manuBtn img{
+        width:20px;
+        margin-top:15px;
+      }
+      .j{
+              
+        height: 80px;
+        width: 190%;
+        padding-top: 30px;
+        margin-left: -31.5px;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.029);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+       
+      }
+      .j:hover{
+        background-color: black;
+        
+      }
+      
+      .p{
+          color: red;
+          font-size: 50px;
+      }
+      #sideNav{
+          display: none;
+      }
+      #manuBtn{
+          display: none;
+      }
+      .header-shop{
+         margin-left: 60%;
+         position: relative;
+         bottom: 180px;
+          font-family: Arial;
+      }
+      .banner-btn1{
+        
+        display: flex;
+        
+     }
+     
+     .banner-btn1 a {
+       width: 150px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: 11%;
+       top: 18px;
+       font-size: 13px;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .banner-btn1 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: rgb(0, 0, 0);
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn1 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn1 a:hover {
+       color: #ffffff;
+       border: 0px solid rgb(0, 0, 0);
+     }
+/*----------------------------------*/
+li{
+    font-family: "Raleway", sans-serif;
+    color: #a3a3a3;
+    font-size: 14px;
+    margin-left: 2%;
+}
+.ul-1-2{
+    display: flex;
+    color:#a3a3a3;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    border-bottom: 0.5px solid #dee2e6;
+   
+    
+}
+.ul1{
+    width: 100%;
+   margin-left: -2%;
+    /* background-color: black; */
+}
+.ul2{
+    /* background-color: black; */
+    width: 100%;
+    margin-left: 20%;
+
+}
+.font{
+    margin-left: 2%;
+}
+.deferent{
+    color: #5a5a5a;
+}
+.serash{
+    margin-top:4%;
+    border: 1px solid #dee2e6 ;
+    background-color: #FCFCFC;
+    outline-style:solid;
+    color: #8e9091;
+    width: 200px;
+    height: 35px;
+    
+    outline-width: 1px;
+}
+
+::placeholder{
+    font-size: 14px;
+   
+}
+.container-fluid  i{
+    color: #5a5a5a;
+   position:relative;
+   right: 25px;
+   top: 24px;
+   font-size: 10px;
+}
+.container-fluid input{
+    padding-left: 20px;
+}
+.navbar-nav{
+    position: relative;
+    top:120px;
+   left: 14%;
+   font-size: 13px;
+   font-family: "Maven Pro", sans-serif;
+}
+.border1{
+    border-bottom: 0.5px solid #dee2e6;
+    width: 100%;
+    position: absolute;
+    top: 150%;
+    right: 0%;
+}
+h1{
+    position: absolute;
+    left:40%;
+    top: 50%;
+    font-size: 30px;
+}
+.stor{
+    position: absolute;
+    left: 94%;
+}
+.stor i{
+    font-size: 20px;
+    margin-left: 5px;
+    color: black;
+    
+}
+/* header{
+    background-image: url(IMG/1.jpg);
+    margin-top: 100px;
+    height: 500px;
+    width: 1000px;
+    margin-left: 60px;
+    background-position: center;
+} */
+.title{
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+    left:50%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+   
+    height: 140px;
+    
+}
+.title h2{
+    font-size: 60px;
+    font-family: Playfair Display SC, serif;
+position: relative;
+top: -90px;
+}
+.title p{
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
+header img{
+    margin-top: 100px;
+    filter: grayscale(50%);
+    width: 100%;
+}
+.container h2{
+    text-align: center;
+    margin-top: 90px;
+}
+.new-arrivals h2{
+    text-shadow: 5px 5px 15px  #a3a3a3;
+}
+.card-body p{
+    text-shadow: 5px 5px 10px #a3a3a3;
+}
+h5{
+    font-size: 25px;
+    text-shadow: 5px 5px 10px #a3a3a3;
+}
+/* btn-banner*/
+
+.banner-btn{
+        
+         display: flex;
+         
+      }
+      
+      .banner-btn a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 11%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .banner-btn a span{
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: -1;
+        transition: 0.5s;
+      }
+      .banner-btn a:hover span{
+        width: 100%;
+        
+      }
+      .banner-btn a:hover {
+        color: #000000;
+        border: 0px solid white;
+      }
+      .inner{
+          overflow: hidden;
+      }
+      .inner img{
+           transition:  all 1.5s ease;
+      }
+      .inner:hover img{
+        transform: scale(1.5);
+   }
+      /*******************bproduct flex***********************/
+      .col1{
+          
+          border-right : 1px solid white;
+      }
+      .col2{
+          font-size: 35px;
+          text-transform: uppercase;
+          margin-top: 90px;
+          text-align: center;
+      }
+      .col3{
+          
+        border-left: 1px solid white;
+    }
+      .fh{
+          margin-top:70px;
+          box-shadow: -2px -1px 10px 5px rgb(61, 61, 61);
+      }
+      .banner-btn5{
+        
+        display: flex;
+        
+     }
+     
+     .banner-btn5 a {
+       width: 150px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: white;
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#000000 ;
+       left: 35%;
+       top: 18px;
+       font-size: 13px;
+       font-family: "Raleway", sans-serif;
+     }
+
+     .banner-btn5 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: white;
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn5 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn5 a:hover {
+       color: #000000;
+       border: 0px solid white;
+     }
+     /* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  height:250px ;
+  background-color: rgb(255, 255, 255);
+  color: rgb(8, 8, 8);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 230%;
+  right: 90%;
+  margin-left: -80px;
+  box-shadow: -15px -10px 10px -10px rgb(85, 85, 85);
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/* x-pouap  */
+
+.x-popup{
+    margin-right: 90px;
+    margin-top: -10px;
+    
+}
+.x-popup i{
+    font-size: 25px;
+    margin-top: -100px;
+}
+.lock-popup{
+    position: relative;
+}
+.lock-popup i{
+    position: absolute;
+    top:50px;
+    left: 20px;
+    font-size: 28px;
+}
+.banner-btn8{
+        
+    display: flex;
+    
+ }
+ 
+ .banner-btn8 a {
+   width: 120px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 14px 0;
+   color: white;
+   border:0px solid #13827C;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   background-color:#000000 ;
+   left: 15%;
+   top: 150px;
+   font-size: 11px;
+   font-family: "Raleway", sans-serif;
+ }
+
+ .banner-btn8 a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   z-index: -1;
+   transition: 0.5s;
+ }
+ .banner-btn8 a:hover span{
+   width: 100%;
+   
+ }
+ .banner-btn8 a:hover {
+   color: #000000;
+   border: 0px solid white;
+ }
+
+/* menu sin up and sin in */
+
+ .banner-btn9{
+        
+    display: flex;
+    
+ }
+ 
+ .banner-btn9 a {
+   width: 120px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 14px 0;
+   color: white;
+   border:0px solid #13827C;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   background-color:#000000 ;
+   left: 15%;
+   top: 50px;
+   font-size: 11px;
+   font-family: "Raleway", sans-serif;
+ }
+
+ .banner-btn9 a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   z-index: -1;
+   transition: 0.5s;
+ }
+ .banner-btn9 a:hover span{
+   width: 100%;
+   
+ }
+ .banner-btn9 a:hover {
+   color: #000000;
+   border: 0px solid white;
+ }
+ .boredr-all{
+   border-top: 1px solid rgb(230, 224, 224);
+   margin-top: 50px;
+   padding-top: 80px;
+ }
+ .suscribe-searsh{
+    background-color:#dee2e6;
+    padding: 40px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+     
+ }
+ .suscribe-searsh input{
+    width: 70%;
+    height: 40px;
+    outline-style: solid;
+    outline-color:rgb(255, 0, 0);
+    outline-width: 0px;
+    border : 1px solid black;
+    color: #646466;
+    margin-top: 10px;
+ }
+ .suscribe-searsh input:nth-child(2){
+    width: 20%;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: -5px;
+    position:absolute;
+    
+ }
+.suscribe-searsh-2{
+background-color:#dee2e6;
+padding: 40px;
+position: relative;
+box-shadow:5px 5px 5px  rgb(121, 121, 121);
+}
+.suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #494949;
+}
+.new-arrivals h3{
+    margin-top: 110px;
+    text-align: center;
+}
+/* footer */
+    
+footer{
+    display: flex;
+    margin-top: 80px;
+    border-top:1px solid rgb(211, 203, 203) ;
+    border-bottom: 1px solid rgb(211, 203, 203);
+    padding-top: 40px;
+    padding-left: -100%;
+}
+.last-footer{
+    display: flex;
+    
+}
+.footer-colom1{
+    margin-left: 5%;
+    margin-top: 5%;
+    line-height: 120%;
+    margin-bottom:15px;
+    line-height: 170%;
+}
+.footer-colom1 ul li{
+    font-size: 17px;
+}
+.copie-rieght{
+    border-top: 1px solid rgb(211, 203, 203);
+    position: relative;
+}
+.copie-rieght p{
+position: absolute;
+top: 10px;
+left: 50px;
+color: #aaa7a7;
+}
+.font{
+    color: rgb(131, 130, 130);
+}
+ @media  (max-width: 1285.60px){
+    .header-shop{
+        margin-left: 60%;
+        position: relative;
+        bottom: 130px;
+         font-family: Arial;
+    }
+    
+    .title{
+        position: absolute;
+        top:55%;
+        color: white;
+        left:50%;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+       
+        height: 140px;
+    }
+    
+}
+ @media  (max-width: 1200px){
+    .header-shop{
+        margin-left: 65%;
+        position: relative;
+        bottom: 100px;
+         font-family: Arial;
+    }
+    .title{
+        position: absolute;
+        top:65%;
+        color: white;
+        left:50%;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+       
+        height: 140px;
+        
+    }
+    .title h2{
+        font-size: 60px;
+        font-family: Playfair Display SC, serif;
+    position: relative;
+    top: -90px;
+    }
+    .title p{
+        text-align: center;
+        position: relative;
+        top: -90px;
+    }
+    .footer-4 img{
+        width: 200px;
+    }
+    .footer-3 img{
+        width: 200px;
+    }
+    .footer-2 img{
+        width: 200px;
+    }
+    .footer img{
+        width: 200px;
+    }
+    
+ }
+
+@media  (max-width: 1115px){
+    
+    .ul1{
+        width: 100%;
+       margin-left: -3%;
+    }
+    .ul2{
+        width: 100%;
+        margin-left: 1%;
+    }
+    .container-fluid  i{
+        color: #5a5a5a;
+        position:relative;
+        right: 25px;
+        top:19px;
+        font-size: 10px;
+    }
+    .stor i{
+        font-size: 16px;
+        margin-left: 5px;
+        color: black;
+    }
+    .navbar-nav{
+        position: relative;
+        top:120px;
+       left: 8%;
+    }
+    header img{
+        margin-top: 100px;
+        filter: grayscale(50%);
+        width: 940px;
+    }
+    .title{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        height: 120px;
+    }
+    .title h2{
+        font-size: 50px;
+        font-family: Playfair Display SC, serif;
+    }
+    .title p{
+        text-align: center;
+    }
+    .banner-btn1 a{
+        position: relative;
+        top: 60px;
+    }
+    .header-shop{
+        margin-left: 60%;
+         position: relative;
+         bottom: 170px;
+          font-family: Arial;
+    }
+    .lock-popup{
+        position: relative;
+    }
+    .lock-popup i{
+        position: absolute;
+        top:60px;
+        left: 20px;
+        font-size: 28px;
+    }
+    .banner-btn8{
+            
+        display: flex;
+        
+     }
+     
+     .banner-btn8 a {
+       width: 120px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: white;
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#000000 ;
+       left: 15%;
+       top: 150px;
+       font-size: 11px;
+       font-family: "Raleway", sans-serif;
+     }
+    
+     .banner-btn8 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: white;
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn8 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn8 a:hover {
+       color: #000000;
+       border: 0px solid white;
+     }
+    
+    /* menu sin up and sin in */
+    
+     
+     .banner-btn9 a {
+       width: 120px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: white;
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#000000 ;
+       left: 15%;
+       top: 50px;
+       font-size: 11px;
+       font-family: "Raleway", sans-serif;
+     }
+    
+     .banner-btn9 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: white;
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn9 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn9 a:hover {
+       color: #000000;
+       border: 0px solid white;
+     }
+    
+}
+@media  (max-width: 1029.33px){
+        .title{
+            margin-top: -10px;
+        }
+}
+@media  (max-width: 994px){
+    li{
+        font-size: 10px;
+    }
+    .ul2{
+        margin-left:30%;
+    }
+    .container-fluid  i{
+        color: #5a5a5a;
+        position:relative;
+        right: 25px;
+        top:15px;
+        font-size: 10px;
+    }
+    .navbar-nav{
+        position: relative;
+        top:120px;
+       left: -18%;
+       font-size: 13px;
+    }
+    .serash{
+        width: 150px;
+        height: 28px;
+        margin-top: 5%;
+    }
+    .container-fluid  i{
+        color: #5a5a5a;
+       position:relative;
+       right: 20px;
+       top: 23px;
+       font-size: 10px;
+    }
+    h1{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .stor i{
+        margin-top: 30px;
+        font-size: 15px;
+        margin-left: 5px;
+        color: black;
+        
+    }
+    .navbar-nav{
+        position: relative;
+        top:120px;
+       left: 12%;
+    }
+    header img{
+        margin-top: 100px;
+        filter: grayscale(50%);
+        width: 940px;
+    }
+    .title{
+        height: 100px;
+    }
+
+    .x-popup{
+        
+            margin-right: 90px;
+            margin-top: -10px;
+    }
+    .x-popup i{
+        font-size: 25px;
+        margin-top: -100px;
+    }
+    .lock-popup{
+        position: relative;
+    }
+    .lock-popup i{
+        position: absolute;
+        top:10px;
+        left: 20px;
+        font-size: 28px;
+    }
+    .banner-btn8{
+            
+        display: flex;
+        
+     }
+     
+     .banner-btn8 a {
+       width: 120px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: white;
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#000000 ;
+       left: 15%;
+       top: 150px;
+       font-size: 11px;
+       font-family: "Raleway", sans-serif;
+     }
+    
+     .banner-btn8 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: white;
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn8 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn8 a:hover {
+       color: #000000;
+       border: 0px solid white;
+     }
+    
+    /* menu sin up and sin in */
+    
+     .banner-btn9{
+            
+        display: flex;
+        
+     }
+     
+     .banner-btn9 a {
+       width: 120px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 14px 0;
+       color: white;
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#000000 ;
+       left: 15%;
+       top: 50px;
+       font-size: 11px;
+       font-family: "Raleway", sans-serif;
+     }
+    
+     .banner-btn9 a span{
+       width: 0;
+       height: 100%;
+       position: absolute;
+       top: 0;
+       left: 0;
+       background: white;
+       z-index: -1;
+       transition: 0.5s;
+     }
+     .banner-btn9 a:hover span{
+       width: 100%;
+       
+     }
+     .banner-btn9 a:hover {
+       color: #000000;
+       border: 0px solid white;
+     }
+     /* .popup .popuptext {
+        visibility: hidden;
+        width: 200px;
+        height:250px ;
+        background-color: rgb(255, 255, 255);
+        color: rgb(8, 8, 8);
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        top: 230%;
+        right: 90%;
+        margin-left: -80px;
+        box-shadow: -15px -10px 10px -10px rgb(85, 85, 85);
+      } */
+    
+}
+
+@media  (max-width:991px){
+    .ul2{
+        margin-left: 0%;
+    }
+    .stor{
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    .serash{
+        margin-top: 50px;
+    }
+    .container-fluid i{
+        position:relative;
+        right: 20px;
+        top:25px;
+    }
+    header img{
+        width: 700px;
+        margin-left: -10px;
+    }
+    .navbar-nav{
+        position: relative;
+        top:120px;
+       left: -5%;
+    }
+    .title{
+        margin-top: -80px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .title h2{
+        font-size: 40px;
+        font-family: Playfair Display SC, serif;
+    }
+    .title p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .x-popup{
+        
+        margin-right: 90px;
+        margin-top: -10px;
+}
+.x-popup i{
+    font-size: 25px;
+    margin-top: -100px;
+}
+.lock-popup{
+    position: relative;
+}
+.lock-popup i{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    font-size: 28px;
+}
+.banner-btn8{
+        
+    display: flex;
+    
+ }
+ 
+ .banner-btn8 a {
+   width: 120px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 14px 0;
+   color: white;
+   border:0px solid #13827C;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   background-color:#000000 ;
+   left: 15%;
+   top: 150px;
+   font-size: 11px;
+   font-family: "Raleway", sans-serif;
+ }
+
+ .banner-btn8 a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   z-index: -1;
+   transition: 0.5s;
+ }
+ .banner-btn8 a:hover span{
+   width: 100%;
+   
+ }
+ .banner-btn8 a:hover {
+   color: #000000;
+   border: 0px solid white;
+ }
+
+/* menu sin up and sin in */
+
+ .banner-btn9{
+        
+    display: flex;
+    
+ }
+ 
+ .banner-btn9 a {
+   width: 120px;
+   text-decoration: none;
+   display: inline-block;
+   margin: 0 10px;
+   padding: 14px 0;
+   color: white;
+   border:0px solid #13827C;
+   text-align: center;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   font-weight: bold;
+   background-color:#000000 ;
+   left: 15%;
+   top: 50px;
+   font-size: 11px;
+   font-family: "Raleway", sans-serif;
+ }
+
+ .banner-btn9 a span{
+   width: 0;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   z-index: -1;
+   transition: 0.5s;
+ }
+ .banner-btn9 a:hover span{
+   width: 100%;
+   
+ }
+ .banner-btn9 a:hover {
+   color: #000000;
+   border: 0px solid white;
+ }
+
+    .banner-btn a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 22%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+      .fh{
+        margin-top:70px;
+        box-shadow: -2px -1px 10px 5px rgb(61, 61, 61);
+    }
+    .col2{
+        font-size: 23px;
+        text-transform: uppercase;
+        margin-top: 90px;
+        text-align: center;
+    }
+    .banner-btn5 a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 25%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+    }
+    .suscribe-searsh{
+        position: relative;
+        
+    }
+    
+    .suscribe-searsh input:nth-child(2){
+    
+    font-size: 10px;
+    width: 85px;
+    }
+    .suscribe-searsh input{
+        width: 200px;
+        margin-left: -20px;
+        
+    }
+.suscribe-searsh-2{
+    background-color:#dee2e6;
+    padding: 40px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+}
+.suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #494949;
+    text-align: center;
+}
+.footer-4 img{
+    width: 150px;
+}
+.footer-3 img{
+    width: 150px;
+}
+.footer-2 img{
+    width: 150px;
+}
+.footer img{
+    width: 150px;
+}
+/* footer */
+    
+footer{
+    display: flex;
+    margin-top: 80px;
+    border-top:1px solid rgb(211, 203, 203) ;
+    border-bottom: 1px solid rgb(211, 203, 203);
+    padding-top: 40px;
+    padding-left: 5%;
+}
+.last-footer{
+    display: flex;
+    
+}
+.footer-colom1{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.footer-colom1 ul li{
+    font-size: 12px;
+}
+.copie-rieght{
+    border-top: 1px solid rgb(211, 203, 203);
+    position: relative;
+}
+.copie-rieght p{
+position: absolute;
+top: 10px;
+left: 50px;
+color: #aaa7a7;
+}
+
+}
+@media  (max-width:767px){
+    .stor{
+        display: none;
+    }
+    .button-border{
+        border: 0px solid ;
+        outline-width:1px ;
+    }
+    .ul-1-2{
+        display: none;
+    }
+    #sideNav{
+        display: block;
+    }
+    #manuBtn{
+        display: block;
+        position: fixed;
+    }
+    #manuBtn img{
+        width:20px;
+        margin-top:15px;
+      }
+      #manuBtn{
+        width: 50px;
+        height:50px;
+        text-align:center;
+        position:fixed;
+        right:50px;
+        top:30px;
+        border-radius: 3px;
+        background-color:#000000;
+        border-radius: 10px;
+        Z-index:3;
+        cursor:pointer;
+       }
+       .serash{
+           display: none;
+       }
+       h1{
+           margin-top: 20px;
+           margin-left: -20px;
+       }
+       .container-fluid  i{
+        color: black;
+       position:relative;
+       right: 13%;
+       top: 30px;
+       font-size: 30px;
+    }
+    header img{
+        width: 700px;
+        margin-left: -100px;
+       
+    }
+    
+    .title{
+        margin-top: -170px;
+        margin-left: 50px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .title h2{
+        font-size: 35px;
+        font-family: Playfair Display SC, serif;
+    }
+    .title p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .banner-btn1 a{
+        left: 35%;
+        font-size: 12px;
+        width: 120px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 10px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       
+       font-size: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .banner-btn a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 10%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+      .fh{
+        margin-top:70px;
+        box-shadow: -2px -1px 10px 5px rgb(61, 61, 61);
+    }
+      .col1{
+        border-right: 0px solid white;
+        border-bottom : 1px solid white;
+    }
+    .col1 img{
+        width:400px;
+    }
+    .col2{
+
+        font-size: 23px;
+        text-transform: uppercase;
+        margin-top: 90px;
+        text-align: center;
+        height: 200px;
+    }
+    .col2 p{
+       padding-top: -100px;
+    }
+    .col2 img{
+        width:400px;
+    }
+    .col3{
+        
+        border-left: 0px solid white;
+        border-top: 1px solid white;
+  }
+  .banner-btn5 a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 14px 0;
+    color: white;
+    border:0px solid #13827C;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    background-color:#000000 ;
+    left: 32%;
+    top: 18px;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+  }
+  .suscribe-searsh{
+    background-color:#dee2e6;
+    padding: 20px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+    
+}
+.suscribe-searsh input{
+    width: 70%;
+    height: 40px;
+    outline-style: solid;
+    outline-color:rgb(255, 0, 0);
+    outline-width: 0px;
+    border : 1px solid black;
+    color: #646466;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 43px;
+}
+.suscribe-searsh input:nth-child(2){
+   width: 20%;
+   height: 40px;
+   font-size: 13px;
+   color: white;
+   background-color: black;
+   border: 1px solid black;
+   margin-left: -5px;
+   position:absolute;
+   top:0px;
+   left: 355px;
+   
+}
+.suscribe-searsh-2{
+background-color:#dee2e6;
+padding: 10px;
+position: relative;
+box-shadow:5px 5px 5px  rgb(121, 121, 121);
+}
+.suscribe-searsh-2 p{
+   margin-top: 13px;
+   letter-spacing: 2px;
+   margin-left: 20px;
+   font-size: 16px;
+   color: #494949;
+}
+.footer-4 img{
+    width: 120px;
+    margin-left:-28%;
+   
+}
+.footer-3 img{
+    width:120px;
+    margin-left: -28%;
+}
+.footer-2 img{
+    width: 120px;
+    margin-left: -28%;
+}
+.footer img{
+    width: 120px;
+    margin-left: -28%;
+}
+.footer-colom1 ul li{
+    font-size: 10px;
+    line-height: 120%;
+}
+
+}
+@media  (max-width:708px){
+    header img{
+        width: 600px;
+      position: absolute;
+      left: 150px;
+    }
+    .new-arrivals h2{
+         margin-top: 450px;
+         text-align: center;
+    }
+    
+    .title{
+       margin-top: -155px;
+        height: 70px;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+    .title p{
+        font-size: 10px;
+    }
+    .banner-btn1 a {
+        width: 100px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 10px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: 22%;
+       top: 460px;
+       font-size:8px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media  (max-width:659px){
+    .container-fluid  i{
+        color: black;
+       position:relative;
+       right: 8px;
+       top: 30px;
+       font-size: 30px;
+    }
+    header img{
+        width: 550px;
+    }
+}
+@media  (max-width:600px){
+    header img{
+        width: 500px;
+    }
+    .title{
+        margin-top: -170px;
+        margin-left: -1px;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+    .title p{
+        font-size: 8px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 400px;
+        font-size: 25px;
+    }
+    .banner-btn1 a {
+        width: 80px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 8px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: 4%;
+       top: 430px;
+       font-size:8px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media  (max-width:575px){
+    .width1{
+        width: 250px;
+        margin-left: 20%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding-left:50%;
+    }
+    .footer{
+        margin-top: 10%;
+    }
+    .last-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media  (max-width:556px){
+    .suscribe-searsh{
+        background-color:#dee2e6;
+        padding: 20px;
+        position: relative;
+        box-shadow:5px 5px 5px  rgb(121, 121, 121);
+        
+    }
+    .suscribe-searsh input{
+        width: 70%;
+        height: 40px;
+        outline-style: solid;
+        outline-color:rgb(255, 0, 0);
+        outline-width: 0px;
+        border : 1px solid black;
+        color: #646466;
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 43px;
+    }
+    .suscribe-searsh input:nth-child(2){
+    width: 20%;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: -5px;
+    position:absolute;
+    top:0px;
+    left: 75%;
+    
+    }
+    .suscribe-searsh-2{
+    background-color:#dee2e6;
+    padding: 10px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+    }
+    .suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #494949;
+    }
+}
+@media  (max-width:550px){
+    header img{
+        width: 450px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 380px;
+        font-size: 25px;
+    }
+}
+@media  (max-width:500px){
+    h1{
+        margin-left: -40px;
+    }
+    header img{
+        width: 400px;
+    }
+    .title{
+        position: absolute;
+        top: 420px;
+        height: 50px;
+    }
+    .title h2{
+        font-size: 18px;
+        
+        
+    }
+    .title p {
+        font-size: 6px;
+    }
+    .title{
+        margin-top: -230px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 350px;
+        font-size: 20px;
+    }
+    .banner-btn1 a {
+        width: 60px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 6px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: -5%;
+       top: 375px;
+       font-size:5px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .banner-btn5 a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 30%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+}
+@media  (max-width:463px){
+    .suscribe-searsh{
+        background-color:#dee2e6;
+        padding: 20px;
+        position: relative;
+        box-shadow:5px 5px 5px  rgb(121, 121, 121);
+        
+    }
+    .suscribe-searsh input{
+        width: 70%;
+        height: 40px;
+        outline-style: solid;
+        outline-color:rgb(255, 0, 0);
+        outline-width: 0px;
+        border : 1px solid black;
+        color: #646466;
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 43px;
+    }
+    .suscribe-searsh input:nth-child(2){
+    width: 20%;
+    height: 40px;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: -5px;
+    position:absolute;
+    top:0px;
+    left: 75%;
+    
+    }
+    .suscribe-searsh-2{
+    background-color:#dee2e6;
+    padding: 10px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+    }
+    .suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #494949;
+    }
+}
+@media  (max-width:450px){
+    header img{
+        width: 350px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 320px;
+        font-size: 20px;
+    }
+    .header-shop{
+        margin-left: 70%;
+         position: relative;
+         bottom: 150px;
+          font-family: Arial;
+    }
+    .banner-btn5 a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 27%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+      .suscribe-searsh{
+        background-color:#dee2e6;
+        padding: 20px;
+        position: relative;
+        box-shadow:5px 5px 5px  rgb(121, 121, 121);
+        
+    }
+    .suscribe-searsh input{
+        width: 70%;
+        height: 40px;
+        outline-style: solid;
+        outline-color:rgb(255, 0, 0);
+        outline-width: 0px;
+        border : 1px solid black;
+        color: #646466;
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 43px;
+    }
+    .suscribe-searsh input:nth-child(2){
+    width: 20%;
+    height: 40px;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: -5px;
+    position:absolute;
+    top:0px;
+    left: 75%;
+    
+    }
+    .suscribe-searsh-2{
+    background-color:#dee2e6;
+    padding: 10px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+    }
+    .suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #494949;
+    }
+    
+}
+@media  (max-width:400px){
+    h1{
+        margin-left: -48px;
+        font-size: 20px;
+    }
+    .container-fluid  i{
+        color: black;
+       position:relative;
+       right: 8px;
+       top: 30px;
+       font-size: 20px;
+    }
+    #manuBtn img{
+        width:15px;
+        margin-top:12px;
+      }
+      #manuBtn{
+        width: 40px;
+        height:40px;
+        text-align:center;
+        position:fixed;
+        right:30px;
+        top:30px;
+        border-radius: 3px;
+        background-color:#000000;
+        border-radius: 10px;
+        Z-index:3;
+        cursor:pointer;
+       }
+       header img{
+           width: 300px;
+       }
+       .title h2{
+           font-size: 15px;
+       }
+       .title p{
+           font-size: 5px;
+       }
+       .title{
+           margin-top: -250px;
+           height: 40px;
+       }
+       .new-arrivals h2{
+        text-align: center;
+        margin-top: 280px;
+        font-size: 18px;
+    }
+    .banner-btn1 a {
+        width: 50px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 4px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: -5%;
+       top: 350px;
+       font-size:5px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .banner-btn5 a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 14px 0;
+        color: white;
+        border:0px solid #13827C;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+        background-color:#000000 ;
+        left: 20%;
+        top: 18px;
+        font-size: 13px;
+        font-family: "Raleway", sans-serif;
+      }
+      .suscribe-searsh{
+        background-color:#dee2e6;
+        padding: 20px;
+        position: relative;
+        box-shadow:5px 5px 5px  rgb(121, 121, 121);
+        
+    }
+    .suscribe-searsh input{
+        width: 65%;
+        height: 35px;
+        outline-style: solid;
+        outline-color:rgb(255, 0, 0);
+        outline-width: 0px;
+        border : 1px solid black;
+        color: #646466;
+        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 43px;
+    }
+    .suscribe-searsh input:nth-child(2){
+    width: 20%;
+    height: 35px;
+    font-size: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: -5px;
+    position:absolute;
+    top:0px;
+    left: 74%;
+    
+    }
+    .suscribe-searsh-2{
+    background-color:#dee2e6;
+    padding: 10px;
+    position: relative;
+    box-shadow:5px 5px 5px  rgb(121, 121, 121);
+    }
+    .suscribe-searsh-2 p{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #494949;
+    }
+}
+
+@media  (max-width:350px){
+    header img{
+        width: 250px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 250px;
+        font-size: 16px;
+    }
+    
+    .banner-btn1 a {
+        width: 50px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 4px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: -5%;
+       top: 350px;
+       font-size:5px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-shop{
+        margin-left: 60%;
+         position: relative;
+         bottom: 150px;
+          font-family: Arial;
+    }
+}
+
+@media  (max-width:300px){
+    header img{
+        width: 200px;
+    }
+    .title h2{
+        font-size: 12px;
+    }
+    .title p {
+        font-size: 4px;
+        margin-top: -5px;
+    }
+    .title{
+        margin-top: -280px;
+        height: 30px;
+    }
+    .new-arrivals h2{
+        text-align: center;
+        margin-top: 220px;
+        font-size: 10px;
+    }
+    .banner-btn1 a {
+        width: 40px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 10px;
+       padding: 4px 0;
+       color: rgb(0, 0, 0);
+       border:0px solid #13827C;
+       text-align: center;
+       position: relative;
+       z-index: 1;
+       transition: color 0.5s;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: larger;
+       font-weight: bold;
+       background-color:#ffffff ;
+       left: -5%;
+       top: 300px;
+       font-size:5px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+}

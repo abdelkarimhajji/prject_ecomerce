@@ -1,0 +1,155 @@
+.new-arrivals .rounded{
+    margin-top: 15%;
+  }
+  /* form */
+  
+  .form-horizontal{
+    max-width: 35%;
+    height: 580px !important;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px 1px rgba(160, 158, 158, 0.5);
+    margin-bottom: 0%;
+    padding-left: 6%;
+    padding-top: 2%;
+    margin-top: 1%;
+    background-color: #eeeeee;
+    }
+    
+    input{
+        border: 1px solid black;
+        border: none;
+        outline: none;
+        box-shadow: 2px 2px 7px  rgb(0,0,0, 0.5);
+        padding-left: 10px;
+    }
+    .col{
+        width: 80%;
+        height: 35px;
+        border-radius: 2px;
+    }
+    .btn{
+      border: none;
+      background-color:rgb(0, 0, 0);
+       font-family: Arial, Helvetica, sans-serif;
+       width: 150px;
+       transition: 0.5;
+       margin-left:20%;
+       color: #fafafa;
+    }
+    .btn:hover{
+        
+        
+        background-color:rgb(0, 0, 0);
+       font-family: Arial, Helvetica, sans-serif;
+       color: rgb(22, 238, 191);
+      
+    }
+    .img{
+        background-image: url(IMG/mountaine.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 10%;
+        height: 800px;
+    }
+    .form-horizontal p{
+      font-size: 21px;
+      font-weight: bold;
+      padding-top: 14px;
+      margin-left: 26%;
+    }
+    form{
+      margin-top:-10%;
+    }
+    .add{
+      color: #052423;
+      font-size: 80px;
+      margin-left: 25%;
+      background-image:linear-gradient(180deg,rgb(84, 87, 86),black ) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color:transparent;
+  
+    
+    }
+    .i{
+      width: 15%;
+      margin-left: -15%;
+      font-size: 25px;
+      color: white;
+      background-image:linear-gradient(180deg,white, black) ;
+      -webkit-background-clip : text;
+      -webkit-text-fill-color:transparent;
+    }
+    .j{
+      
+      height: 80px;
+      width: 190%;
+      padding-top: 30px;
+      margin-left: -31.5px;
+      padding-left: 20px;
+      background-color: rgba(0, 0, 0, 0.029);
+      
+      
+    }
+    .j:hover{
+      background-color: black;
+      
+    }
+    .btn-warning{
+      position: relative;
+      padding: 11px 16px;
+      font-size: 15px;
+      line-height: 1.5;
+      border-radius: 3px;
+      color: rgba(0, 0, 0, 0.611);
+      background-color: #ffffff;
+      border: 0;
+      overflow: hidden;
+      width:80% ;
+      height: 35px;
+    }
+    .btn-warning:hover{
+      position: relative;
+      padding: 11px 16px;
+      font-size: 15px;
+      line-height: 1.5;
+      border-radius: 3px;
+      color: rgb(255, 255, 255);
+      background-color: #000000;
+      border: 0;
+      overflow: hidden;
+      width:80% ;
+      height: 35px;
+    }
+    .btn-warning input[type="file"]{
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: scale(5);
+      opacity: 0;
+    }
+    .btn-warning p{
+      margin-top: -20px;
+      
+      margin-left:3px;
+      
+      color: #00000023;
+      display: inline-block;
+    }
+    .btn-warning .d{
+      display: inline-block;
+      font-size: 15px;
+    }
+    .copie-rieght2{
+      border-top:1px solid rgb(201, 201, 201) ;
+      padding-top: 10px;
+    }
+    .copie-rieght2 p{
+      color: #929292;
+    }
+    
+    
+    
+    
+  
+  
